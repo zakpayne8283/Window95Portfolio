@@ -1,0 +1,34 @@
+* {
+  font-family: "MS Sans Serif", Tahoma, sans-serif;
+
+  cursor: -webkit-image-set(
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAATAgMAAAA7Rx9DAAAACVBMV…xp1VTEOEAlicDCRqKCaupQL/WF+lo9tzzsZCUxgxmMZjRX/CMoDnKaXoKpAAAAAElFTkSuQmCC)
+        1x,
+      url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMzgiIHhtbG5zPSJod…AxaDFtMyAwaDJtLTIgMWgybS0xIDFoMm0tMiAxaDJtLTEgMWgybS0yIDFoMiIvPjwvc3ZnPg==)
+        2x
+    ),
+    auto;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+
+  text-align: center;
+
+  background: #008080;
+
+  height: 100vh;
+  width: 100vw;
+
+  cursor: -webkit-image-set(
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAATAgMAAAA7Rx9DAAAACVBMV…xp1VTEOEAlicDCRqKCaupQL/WF+lo9tzzsZCUxgxmMZjRX/CMoDnKaXoKpAAAAAElFTkSuQmCC)
+        1x,
+      url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMzgiIHhtbG5zPSJod…AxaDFtMyAwaDJtLTIgMWgybS0xIDFoMm0tMiAxaDJtLTEgMWgybS0yIDFoMiIvPjwvc3ZnPg==)
+        2x
+    ),
+    auto;
+}

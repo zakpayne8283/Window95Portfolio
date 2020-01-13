@@ -1,0 +1,48 @@
+.Taskbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  height: 28px;
+  width: 100%;
+
+  padding-top: 2px;
+
+  box-shadow: rgb(195, 199, 203) 0px 1px inset, rgb(255, 255, 255) 0px 2px inset;
+  background: rgb(195, 199, 203);
+}
+
+.StartMenu {
+  display: flex;
+
+  box-shadow: rgb(0, 0, 0) -1px -1px inset, rgb(255, 255, 255) 1px 1px inset,
+    rgb(134, 138, 142) -2px -2px inset;
+  width: auto;
+  background: rgb(195, 199, 203);
+}
+
+.StartMenu img {
+  height: 16px;
+  width: 16px;
+
+  margin-right: 3px;
+}
+
+.SystemTray {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: rgb(255, 255, 255) -1px -1px inset,
+    rgb(134, 138, 142) 1px 1px inset;
+  flex: 0 0 auto;
+  margin: 2px 2px 2px auto;
+  padding: 2px;
+}
+
+.Clock {
+  margin: 0 6px;
+  font-size: 11px;
+}
